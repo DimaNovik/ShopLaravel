@@ -23,7 +23,7 @@ Route::get('categories/goods/{id}',[
     'uses' => 'GoodsController@showAction'
 ]);
 
-Route::get('goods/order/{id}',[
-    'uses' => 'GoodsController@buyAction'
+Route::get('categories/goods/order/{id}',[
+    'uses' => 'OrdersController@buyAction'
 ]);
 
